@@ -7,6 +7,15 @@
         {
             "type": "node",
             "request": "launch",
+            "name": "Launch Program 3",
+            "program": "${workspaceRoot}/program-3.js",
+            "args": [
+                "${workspaceRoot}/program-3.js"
+            ]
+        },
+        {
+            "type": "node",
+            "request": "launch",
             "name": "program 2",
             "program": "${workspaceRoot}/program-2.js",
             "args": [
